@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+	<div class="modal" id="modal-1" tabindex="-1" data-keyboard="false" data-backdrop="static">
+		<div class="modal-dialog">
+			<form action="/titulos" method="POST"></form>
+				<input type="hidden" name="_method" value="DELETE">
+
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="modal-title">Você têm certeza?</div>
+				</div>
+				<div class="modal-body">
+					<p>Têm certeza que deseja excluir?</p>
+				</div>
+
+				<div class="modal-footer">
+					<button type="button" data-dismiss="modal" class="btn btn-secondary">Cancelar</button>
+					<button type="button" class="btn btn-primary">Excluir</button>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+	integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+	integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	crossorigin="anonymous"></script>
+
+</html>
